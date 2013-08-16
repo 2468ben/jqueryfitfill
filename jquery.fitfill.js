@@ -27,7 +27,7 @@
 	$('#example_images img').fitAll();
 	$('#example_image').fit({centerH: false});
 */
-(function($) {
+!(function($) {
 	var r = function(e, n) {
 		var n = $.extend({
 			centerW: true,
