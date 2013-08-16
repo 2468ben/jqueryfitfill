@@ -21,8 +21,11 @@ Methods:
 Options:
 - centerW: centers the image horizontally, default true
 - centerH: centers the image vertically, default true
+- success: function to call when the image successfully loads (function is passed the image element as an argument)
+- error: function to call when the image doesn't load (function is passed the image element as an argument)
 
 Examples:
 - `$('#example_image').fit();`
 - `$('#example_images').fitAll();`
 - `$('#example_image').fit({centerH: false});`
+- `$('#example_image').fit({ error: function(imgEL) { alert("shut down everything"); } });`
