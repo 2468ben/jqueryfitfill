@@ -1,7 +1,7 @@
 jqueryfitfill
 =============
 
-Little jQuery plugin for scaling images to fit and fill containers
+Little jQuery plugin for scaling images to fit and fill containers. Even works if the image isn't finished loading.
 
 Ben Donaldson Copyright 2013
 (MIT / I don't care what you do with it except it would be really nice if you sent an email to 2468ben@gmail.com and said "hey, thanks" or something) License
