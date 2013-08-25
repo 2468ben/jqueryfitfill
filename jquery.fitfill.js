@@ -19,6 +19,7 @@
   options:
     centerW: centers the image horizontally, default true
     centerH: centers the image vertically, default true
+    parentEl: specify a different parent element than the jquery element you're currently in
     success: function to call when the image successfully loads (function is passed the image element as an argument)
     error: function to call when the image doesn't load (function is passed the image element as an argument)
 
