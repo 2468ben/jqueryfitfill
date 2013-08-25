@@ -7,7 +7,7 @@ Ben Donaldson Copyright 2013
 (MIT / I don't care what you do with it except it would be really nice if you sent an email to 2468ben@gmail.com and said "hey, thanks" or something) License
 
 **The element you use this with must:**
-- **Be the parent element of the <img> you want to scale**
+- **Be the parent element of the image tag you want to scale**
 - **Have a width and height explicitly set in CSS, LIKE "width: 50px" or "width: 100%"**
 
 Methods:
