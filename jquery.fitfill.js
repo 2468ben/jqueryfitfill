@@ -19,7 +19,7 @@
   options:
     centerW: centers the image horizontally, default true
     centerH: centers the image vertically, default true
-    parentEl: specify a different parent element than the jquery element you're currently in
+    parentEl: specify a different element to scale the image to, instead of the current one. Like if the image's parent has no width and height CSS, but the parent's parent does (seriously, that comes up) 
     success: function to call when the image successfully loads (function is passed the image element as an argument)
     error: function to call when the image doesn't load (function is passed the image element as an argument)
 
